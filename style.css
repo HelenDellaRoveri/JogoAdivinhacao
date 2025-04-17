@@ -1,0 +1,76 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 50px;
+    color: #00FF00;
+    min-height: 100vh;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #000000;
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #000000;
+    color: #00FF00;
+    border: 1px solid #00FF00;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.mensagem {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.recorde {
+    margin-top: 10px;
+    font-size: 16px;
+    color: lime;
+}
+
+.tentativas {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #00FF00;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 480px) {
+    body {
+        margin-top: 20px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    input, button {
+        font-size: 18px;
+    }
+
+    .mensagem, .recorde, .tentativas {
+        font-size: 16px;
+    }
+}
